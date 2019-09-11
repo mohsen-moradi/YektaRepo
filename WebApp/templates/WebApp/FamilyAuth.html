@@ -1,0 +1,16 @@
+{% extends 'BaseApp/MasterPage.html' %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <h3>
+            {% trans 'Please' %} {% trans 'FamilyCode' %} {% trans 'Enter' %}
+        </h3>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            
+            <button type="submit">{% trans 'Send' %}</button>
+        </form>
+    </div>
+{% endblock content %}

@@ -1,0 +1,11 @@
+{% extends 'BaseApp/MasterPage.html'%}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+    <div class='col text-center'>
+        <a class="btn btn-primary " href="{% url 'RegPagePath' %}">{% trans 'Register' %} {% trans 'New' %}</a>
+        <a target="_blank" class="btn btn-primary " href="{% url 'FamilyAuthPagePath' %}">{% trans 'FamilyMembership' %}</a>
+    </div>
+
+{% endblock content %}

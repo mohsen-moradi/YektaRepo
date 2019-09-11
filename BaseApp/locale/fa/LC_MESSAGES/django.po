@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-16 00:28+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\templates\BaseApp\MasterPage.html:15
+msgid "Welcome"
+msgstr "خوش آمدید :)"
+
+#: .\templates\BaseApp\MasterPage.html:16
+msgid "Dear"
+msgstr "عزیز"
+
+#: .\templates\BaseApp\MasterPage.html:17
+msgid "Login"
+msgstr "ورود"
+
+#: .\templates\BaseApp\MasterPage.html:18
+msgid "Logout"
+msgstr "خروج"
+
+#: .\templates\BaseApp\MasterPage.html:19
+msgid "Register"
+msgstr "ثبت نام"
+
+#: .\templates\BaseApp\MasterPage.html:20
+msgid "Here"
+msgstr "اینجا"
+
+#: .\templates\BaseApp\MasterPage.html:21
+msgid "You logged out"
+msgstr "!شما از حساب کاربری خود خارج شده اید"
+
+#: .\templates\BaseApp\MasterPage.html:22
+msgid "For log in"
+msgstr "برای ورود به "
+
+#: .\templates\BaseApp\MasterPage.html:23
+msgid "Click"
+msgstr "کلیک کنید"
+
+#: .\templates\BaseApp\MasterPage.html:24
+msgid "SiteName"
+msgstr "یکتا"
+
+#: .\templates\BaseApp\MasterPage.html:25
+msgid "Haven't you an account"
+msgstr "  عضو یکتا نیستید!؟"
+
+#: .\templates\BaseApp\MasterPage.html:26
+msgid "New"
+msgstr "جدید"
+
+#: .\templates\BaseApp\MasterPage.html:27
+msgid "FamilyMembership"
+msgstr "تکمیل اعضای خانواده"
+
+#: .\templates\BaseApp\MasterPage.html:28
+msgid "Please"
+msgstr "لطفا"
+
+#: .\templates\BaseApp\MasterPage.html:29
+msgid "Enter"
+msgstr "مورد نظر را وارد کنید."
+
+#: .\templates\BaseApp\MasterPage.html:30
+msgid "FamilyCode"
+msgstr "شناسه خانوادگی"
+
+#: .\templates\BaseApp\MasterPage.html:31
+msgid "Send"
+msgstr "ارسال"
+
+#: .\templates\BaseApp\MasterPage.html:32
+msgid "UserAccount"
+msgstr "حساب کاربری"
+
+#: .\templates\BaseApp\MasterPage.html:33
+msgid "Go out"
+msgstr "خارج شوید"
+
+#: .\templates\BaseApp\MasterPage.html:34
+msgid "Of"
+msgstr "از"
+
+#: .\templates\BaseApp\MasterPage.html:35
+msgid "Yourself"
+msgstr "خود"
+
+#: .\templates\BaseApp\MasterPage.html:36
+msgid "FamilyCode not found"
+msgstr "شناسه کاربری یافت نشد"
+
+#: .\templates\BaseApp\MasterPage.html:37
+msgid "Activation link is not valid"
+msgstr "لینک فعال سازی نادرست است"
+
+#: .\templates\BaseApp\MasterPage.html:38
+msgid "User not found for activation"
+msgstr "کاربری جهت فعالسازی یافت نشد"
+
+#: .\templates\BaseApp\MasterPage.html:39
+msgid "Your account has been actived successfully"
+msgstr "حساب کاربری شما با موفقیت فعال شد، حال می توانید از این صفحه وارد حساب کاربری خود شوید"
+
+#: .\templates\BaseApp\MasterPage.html:39
+msgid "Registration"
+msgstr "ثبت"
+
+#: .\templates\BaseApp\MasterPage.html:40
+msgid "Dear user you should register in Yekta"
+msgstr "کاربر گرامی ابتدا در یکتا ثبت نام کنید"
+
+#: .\templates\BaseApp\MasterPage.html:41
+msgid "Dear user we will send you an activation email"
+msgstr "عزیز با استفاده از لینک فعالسازی در ایمیل خود حساب کاربری خود را فعال نمایید."
+
+#: .\templates\BaseApp\MasterPage.html:42
+msgid "Activation link from Yekta"
+msgstr "لینک فعالسازی حساب کاربری در سایت یکتا"
+
+#: .\templates\BaseApp\MasterPage.html:43
+msgid "To active your account click here"
+msgstr "برای فعالسازی حساب کاربری خود اینجا کلیک کنید"
+
+#: .\templates\BaseApp\MasterPage.html:44
+msgid "New Duty"
+msgstr "درخواست جدید"
+
+#: .\templates\BaseApp\MasterPage.html:45
+msgid "Insert"
+msgstr "درج"
+
+#: .\templates\BaseApp\MasterPage.html:46
+msgid "Subject"
+msgstr "عنوان"
+
+#: .\templates\BaseApp\MasterPage.html:47
+msgid "Content"
+msgstr "محتوا"
+
+#: .\templates\BaseApp\MasterPage.html:48
+msgid "DutyReceiver"
+msgstr "مخاطب"
+
+#: .\templates\BaseApp\MasterPage.html:49
+msgid "Priority"
+msgstr "اولویت"
+
+#: .\templates\BaseApp\MasterPage.html:50
+msgid "DeadLineDate"
+msgstr "مهلت انجام درخواست"
+
+#: .\templates\BaseApp\MasterPage.html:51
+msgid "CheckStatus"
+msgstr "وضعیت انجام درخواست"

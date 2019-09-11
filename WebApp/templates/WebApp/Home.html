@@ -1,0 +1,47 @@
+{% extends 'BaseApp/MasterPage.html' %}
+{% load i18n %}
+{% load thumbnail%}
+{% block content %}
+
+        <div>
+            <div>
+                <a class="btn btn-primary" href="{% url 'CreateDutyPagePath' %}">
+                {% trans 'Registration' %} {% trans 'New Duty' %}</a>
+            </div>
+            <div>
+                {% for duty in HomeContext %}
+                    <div>
+                        <small>
+                            {{duty.Priority}} \ {{duty.DutySender}} 
+                        </small>
+                        <h6>
+                            {{duty.Subject}}
+                        </h6>
+                        <small>
+                            تاریخ مورد انتظار
+                            {{duty.jDeadLineDate}}\
+                            تاریخ ارسال
+                            {{duty.jCreateDate}}
+                            
+                        </small>
+                        <p>    
+                            {{duty.Content}}
+                        </p>
+                        <div>
+                            {# d.dutyimages_set.first().Images.url #}
+                            {# g=d.dutyimages_set.all().first().Images #}
+                            {# {{duty.dutyimages_set.all}} #}
+                            {# {{duty.dutyimages_set.first.Images.url}} #}
+                            {# <img src="{{duty.dutyimages_set.first.Images.url}}" alt="There is no image(s)"> #}
+                            {# {{duty.dutyimages.Images.url}} #}
+                            {% for di in duty.dutyimages_set.all %}
+                                {% thumbnail di.Images "80x80" crop="center" as im %}
+                                    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                                {% endthumbnail %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+        </div>    
+    </div>
+{% endblock content %}

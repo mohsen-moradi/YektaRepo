@@ -1,0 +1,29 @@
+{% extends 'BaseApp/MasterPage.html' %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <form method="POST">
+            {% csrf_token %}
+
+                <div class="container" style="max-width: 500px;">
+                    {{ form.Subject|as_crispy_field }}
+                    {{ form.Content|as_crispy_field }}
+                    {{ form.DutyReceiver|as_crispy_field }}
+                    {{ form.Priority|as_crispy_field }}
+
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInput1">تاریخ و زمان</label>
+                        <div class="input-group">
+                            <div class="input-group-addon" data-MdDateTimePicker="true" data-targetselector="#exampleInput1" data-trigger="click" data-enabletimepicker="true">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </div>
+                            {{ form.DeadLineDate}}
+                        </div>
+                    </div>
+                    <button type="submit">{% trans 'Insert' %} {% trans 'New Duty' %}</button>
+                </div>
+        </form>
+    </div>
+
+{% endblock content %}

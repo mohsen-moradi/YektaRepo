@@ -1,0 +1,15 @@
+{% extends 'BaseApp/MasterPage.html' %}
+{% load i18n %}
+{% block content %}
+    <div>
+        <h3>
+            {% trans 'You logged out' %}
+        </h3>
+    </div>
+    <div>
+        {% trans 'For log in' %} {% trans 'SiteName' %}
+        <a href="{% url 'LoginPagePath' %}">{% trans 'Here' %}</a>
+        {% trans 'Click' %} 
+    </div>
+
+{% endblock content %}
